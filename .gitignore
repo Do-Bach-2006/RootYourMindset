@@ -1,0 +1,44 @@
+# Hugo default output directory
+/public/
+/resources/
+
+# Hugo cache & temporary files
+.hugo_build.lock
+/tmp/
+/target/
+
+# Node.js / npm (if you ever add JS tools)
+/node_modules/
+/package-lock.json
+/yarn.lock
+
+# macOS junk
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows junk
+Thumbs.db
+Desktop.ini
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Personal customizations you don’t want to commit (optional but recommended)
+# Remove these lines if you DO want to version them
+config/_default/params.local.toml
+config/_default/config.local.toml
+/assets/css/custom.css  # remove this line if you want your custom Everforest CSS in git
+/content/drafts/        # keep drafts private if you want
+
+# Netlify / Vercel specific (only if you use them)
+/.netlify/
+/.vercel/
