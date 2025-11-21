@@ -1,0 +1,80 @@
+/* Everforest Dark Medium Palette Overrides */
+.dark {
+  --body-bg: #2f383e; /* bg0 */
+  --body-color: #d3c6aa; /* fg0 */
+  --PRIMARY-color: #d3c6aa; /* fg1 for headings */
+  --SECONDARY-color: #859289; /* grey1 for subtle text */
+  --ACCENT-color: #a7c080; /* green for accents */
+  --border: #4a555b; /* bg3 */
+  --code-bg: #374247; /* bg1 */
+  --link: #7fbbb3; /* blue */
+  --link-hover: #83c092; /* aqua */
+  --selection-bg: #404c51; /* bg2 */
+  --selection-color: #d3c6aa; /* fg */
+  --button-bg: #374247; /* bg1 */
+  --button-color: #d3c6aa; /* fg */
+  --button-hover-bg: #4a555b; /* bg3 */
+  --button-hover-color: #d3c6aa; /* fg */
+  --input-bg: #2f383e; /* bg0 */
+  --input-color: #d3c6aa; /* fg */
+  --input-placeholder: #859289; /* grey1 */
+  --input-border: #4a555b; /* bg3 */
+  --input-focus-border: #a7c080; /* green */
+  --input-focus-shadow: rgba(167, 192, 128, 0.25); /* green alpha */
+  --menu-bg: #2f383e; /* bg0 */
+  --menu-color: #d3c6aa; /* fg */
+  --menu-hover-bg: #374247; /* bg1 */
+  --menu-hover-color: #a7c080; /* green */
+  --card-bg: #374247; /* bg1 */
+  --card-color: #d3c6aa; /* fg */
+  --card-border: #4a555b; /* bg3 */
+  --card-shadow: rgba(0, 0, 0, 0.05);
+  --toc-bg: #2f383e; /* bg0 */
+  --toc-color: #859289; /* grey1 */
+  --toc-hover-color: #d3c6aa; /* fg */
+  --footer-bg: #2f383e; /* bg0 */
+  --footer-color: #859289; /* grey1 */
+}
+
+/* Everforest Light Medium Palette Overrides (for light mode toggle) */
+:root {
+  --body-bg: #fdf6e3; /* bg0 */
+  --body-color: #5c6a72; /* fg0 */
+  --PRIMARY-color: #5c6a72; /* fg1 */
+  --SECONDARY-color: #87928f; /* grey1 */
+  --ACCENT-color: #8da101; /* green */
+  --border: #e2ddc8; /* bg3 */
+  --code-bg: #f4efda; /* bg1 */
+  --link: #3a94c5; /* blue */
+  --link-hover: #35a77c; /* aqua */
+  --selection-bg: #ebe6d1; /* bg2 */
+  --selection-color: #5c6a72; /* fg */
+  --button-bg: #f4efda; /* bg1 */
+  --button-color: #5c6a72; /* fg */
+  --button-hover-bg: #e2ddc8; /* bg3 */
+  --button-hover-color: #5c6a72; /* fg */
+  --input-bg: #fdf6e3; /* bg0 */
+  --input-color: #5c6a72; /* fg */
+  --input-placeholder: #87928f; /* grey1 */
+  --input-border: #e2ddc8; /* bg3 */
+  --input-focus-border: #8da101; /* green */
+  --input-focus-shadow: rgba(141, 161, 1, 0.25); /* green alpha */
+  --menu-bg: #fdf6e3; /* bg0 */
+  --menu-color: #5c6a72; /* fg */
+  --menu-hover-bg: #f4efda; /* bg1 */
+  --menu-hover-color: #8da101; /* green */
+  --card-bg: #f4efda; /* bg1 */
+  --card-color: #5c6a72; /* fg */
+  --card-border: #e2ddc8; /* bg3 */
+  --card-shadow: rgba(0, 0, 0, 0.05);
+  --toc-bg: #fdf6e3; /* bg0 */
+  --toc-color: #87928f; /* grey1 */
+  --toc-hover-color: #5c6a72; /* fg */
+  --footer-bg: #fdf6e3; /* bg0 */
+  --footer-color: #87928f; /* grey1 */
+}
+
+/* Optional: Code syntax highlighting tweaks for better Everforest match */
+pre code {
+  background-color: var(--code-bg);
+}
