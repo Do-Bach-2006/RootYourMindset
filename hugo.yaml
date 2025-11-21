@@ -16,6 +16,25 @@ minify:
   disableXML: true
   minifyOutput: true
 
+defaultContentLanguage: en
+
+languages:
+  en:
+    languageName: English
+    weight: 1
+    title: "Your Name"
+    contentDir: content/en
+    params:
+      description: "Passive programmer · Minimalist tools · Everforest vibes"
+
+  vi:                                   
+    languageName: Vietnamese      
+    weight: 2
+    title: "Người Việt"
+    contentDir: content/vi
+    params:
+      description: "Tôi là người Viêt, whoohooo"
+
 params:
   env: production
   title: "RootYourMindset"
@@ -24,7 +43,7 @@ params:
   author: "Đỗ Bách"
   DateFormat: "2 January 2006"
   defaultTheme: dark                # Everforest dark by default
-  disableThemeToggle: false
+  disableLanguageSwitchingButton: true
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
@@ -32,10 +51,11 @@ params:
   ShowCodeCopyButtons: true
   ShowWordCount: false
   ShowRssButtonInSectionTermList: true
+  showLanguageSelector: true
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false                   # change to true + add giscus/disqus later if you want
+  comments: true                   # change to true + add giscus/disqus later if you want
   hidemeta: false
   hideSummary: false
   showtoc: true
@@ -43,6 +63,8 @@ params:
 
   assets:
     disableFingerprinting: true     # handy while developing
+    customCSS:
+      - "css/extended/custom.css"    # your custom CSS file in assets/css/extended/
     # favicon: "<link / abs url>"
     # favicon16x16: "<link / abs url>"
     # favicon32x32: "<link / abs url>"
@@ -58,6 +80,7 @@ params:
   profileMode:
     enabled: true
     title: "Your Name"
+    extendProfile: true
     subtitle: "Passive programmer sharing code, thoughts, and calm tools."
     imageUrl: "/images/profile.jpg"     # put your photo in static/images/
     imageWidth: 160
@@ -66,16 +89,11 @@ params:
     buttons:
       - name: Blog
         url: /posts/
-      - name: Tag
-        url: /tags/
       - name: Search
         url: /search/
-
-  # home-info mode (disabled since profileMode is on)
-  homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
-
+      - name: Tag
+        url: /tags/
+ 
   # Social icons (add/remove as you like)
   socialIcons:
     - name: github
@@ -130,6 +148,10 @@ markup:
     noClasses: false
     lineNos: true
     lineNumbersInTable: false
+     # anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    # noClasses: false
 
 # Menu
 menu:

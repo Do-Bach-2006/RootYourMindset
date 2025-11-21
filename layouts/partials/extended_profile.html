@@ -1,0 +1,32 @@
+{{ if .Site.IsMultiLingual }}
+  <div class="profile-languages" style="margin-top: 1.2rem; text-align: center;">
+    {{ range .Site.Languages }}
+      {{ if ne $.Site.Language.Lang .Lang }}
+        <a href="{{ .Lang | absURL }}" style="
+          color: #a7c080;
+          font-size: 0.95rem;
+          margin: 0 0.6rem;
+          text-decoration: none;
+          padding: 0.2rem 0.5rem;
+          border: 1px solid var(--accent);
+          border-radius: 6px;
+          transition: all 0.25s ease;
+        " onMouseOver="this.style.background='rgba(167,192,128,0.15)'"
+           onMouseOut="this.style.background='transparent'">
+          {{ .LanguageName }}
+        </a>
+      {{ else }}
+        <span style="
+          color: var(--link-hover);
+          font-size: 0.95rem;
+          margin: 0 0.6rem;
+          padding: 0.2rem 0.5rem;
+          border: 1px solid var(--link-hover);
+          border-radius: 6px;
+        ">
+          {{ .LanguageName }}
+        </span>
+      {{ end }}
+    {{ end }}
+  </div>
+{{ end }}

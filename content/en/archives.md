@@ -2,7 +2,7 @@
 title: "Archive"
 layout: "archives"
 url: "/archives/"
-summary: archives
+summary: The timeline of my journey
 ---
 
 
