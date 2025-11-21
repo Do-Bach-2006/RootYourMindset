@@ -70,185 +70,22 @@ a, a:visited {
   color: var(--accent);
   text-decoration: none;
   font-weight: 600;
+  
 }
 a:hover, a:focus {
   color: var(--primary);
-  
-}
-
-/* code blocks & inline code */
-pre, code, .highlight {
-  background: var(--code-block-bg) !important;
-  color: var(--primary) !important;
-  border-radius: 6px;
-  padding: 0.25rem 0.4rem;
-}
-pre {
-  padding: 1rem;
-  overflow: auto;
-}
-
-
-/* -----------------------
-   HEADER — soft green glow + hollow border
-   ----------------------- */
-.header {
-  background: transparent;
-  border-bottom: none !important;
-  transition: box-shadow 240ms ease, background 240ms ease;
-}
-
-
-/* header brand / site title */
-.header .brand, .header .site-title {
-  color: var(--primary) !important;
-  font-weight: 600;
-}
-
-/* subtle green line under header brand */
-.header .brand::after {
-  content: "";
-  display: block;
-  height: 3px;
-  width: 40%;
-  margin-top: 6px;
- 
-  opacity: 0.85;
-  border-radius: 4px;
-}
-
-/* -----------------------
-   BUTTONS — hollow + soft green pulse
-   ----------------------- */
-
-/* base hollow button style */
-.button,
-button,
-a.button,
-.btn {
-  background: transparent !important;
-  color: var(--primary) !important;
-  border: 1px solid var(--border) !important;
-  padding: 0.5rem 0.8rem;
-  border-radius: 8px;
-  transition: transform 150ms ease, box-shadow 220ms ease, border-color 220ms ease, background 220ms ease;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-/* primary-style button — filled variant (if used) */
-.button-primary,
-button.primary,
-a.btn-primary {
-  background: linear-gradient(180deg, rgba(0,0,0,0.04), transparent);
-  border: 1px solid rgba(0,0,0,0.06);
-  color: var(--primary) !important;
-}
-
-button{
-  border: none !important;
-}
-button:hover{
-  border: none !important;
-  box-shadow: none !important;
+  transition: transform 300ms ease-in-out 0s;
 }
 
 /* hover: soft green outline + glow */
-.button:hover,
-button:hover,
+
 a.button:hover,
 .btn:hover {
   transform: translateY(-2px);
   border-color: var(--accent) !important;
   box-shadow: 0 6px 18px rgba(0,0,0,0.06), 0 0 18px var(--accent-weak);
-  background: linear-gradient(180deg, rgba(167,192,128,0.04), rgba(167,192,128,0.01));
   color: var(--primary) !important;
 }
-
-/* active press effect */
-.button:active,
-button:active {
-  transform: translateY(0);
-  box-shadow: inset 0 2px 6px rgba(0,0,0,0.08);
-}
-
-/* focus ring (accessible) */
-.button:focus,
-button:focus,
-a.button:focus {
-  outline: none;
-  box-shadow: 0 0 0 4px rgba(167,192,128,0.10);
-  border-color: var(--accent);
-}
-
-/* small filled accent button */
-.btn-accent {
-  background: linear-gradient(90deg, rgba(167,192,128,0.12), rgba(167,192,128,0.06));
-  border: 1px solid rgba(167,192,128,0.18);
-  color: var(--primary);
-}
-.btn-accent:hover {
-  background: linear-gradient(90deg, rgba(167,192,128,0.18), rgba(167,192,128,0.08));
-  box-shadow: 0 8px 26px rgba(167,192,128,0.08);
-}
-
-
-
-/* -----------------------
-   PROFILE (main screen) targeted fixes
-   ----------------------- */
-.profile, .homepage-profile, .hero, .main-hero {
-  background: var(--theme) !important;
-  border: none !important;
-
-}
-
-
-/* profile name & subtitle */
-.profile .name, .hero .name {
-  color: var(--primary);
-  font-weight: 700;
-  font-size: 1.75rem;
-}
-.profile .subtitle, .hero .subtitle {
-  color: var(--secondary);
-  margin-top: 6px;
-}
-
-/* profile action buttons */
-.profile .buttons a {
-  margin-right: 0.5rem;
-}
-.profile .buttons a.primary {
-  background: transparent;
-  border: 1px dashed rgba(167,192,128,0.16);
-}
-.profile .buttons a.primary:hover {
-  border-style: solid;
-  box-shadow: 0 10px 30px rgba(167,192,128,0.09);
-}
-
-/* -----------------------
-   TOC / Sidebar active color
-   ----------------------- */
-.toc a, .sidebar a {
-  color: var(--secondary);
-}
-.toc a:hover, .sidebar a:hover, .toc .active, .sidebar .active {
-  color: var(--accent);
-  font-weight: 600;
-}
-
-/* -----------------------
-   Small polish: subtle transitions everywhere
-   ----------------------- */
-* {
-  transition-property: background-color, color, border-color, box-shadow, transform;
-  transition-duration: 180ms;
-  transition-timing-function: ease;
-}
-
-
 
 
 
@@ -267,4 +104,10 @@ a.button:focus {
 #theme-toggle:hover 
 {
   border-style: none;
+}
+
+
+div.profile_inner{
+  gap: 2rem !important;
+
 }

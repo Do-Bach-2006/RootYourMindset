@@ -1,7 +1,7 @@
 baseURL: "https://yourusername.github.io/"   # ← change when you have a real domain
 languageCode: en-us
 title: "RootYourMindset"                                  # ← your real name / brand
-copyright: "© 2025 Đỗ Bách"
+copyright: "© 2025 Đỗ Bách - All rights reserved"
 
 theme: PaperMod
 enableRobotsTXT: true
@@ -65,11 +65,7 @@ params:
     disableFingerprinting: true     # handy while developing
     customCSS:
       - "css/extended/custom.css"    # your custom CSS file in assets/css/extended/
-    # favicon: "<link / abs url>"
-    # favicon16x16: "<link / abs url>"
-    # favicon32x32: "<link / abs url>"
-    # apple_touch_icon: "<link / abs url>"
-    # safari_pinned_tab: "<link / abs url>"
+    
 
   label:
     text: "Home"
@@ -79,12 +75,12 @@ params:
   # ←←← YOUR PROFILE MODE (kept exactly as you like it) ←←←
   profileMode:
     enabled: true
-    title: "Your Name"
+    title: "Đỗ Bách"
     extendProfile: true
-    subtitle: "Passive programmer sharing code, thoughts, and calm tools."
-    imageUrl: "/images/profile.jpg"     # put your photo in static/images/
-    imageWidth: 160
-    imageHeight: 160
+    subtitle: "Roman Christian & Ethical Hacker. Hacking through systems and inner self."
+    imageUrl: "/images/profile_final.jpg"     # put your photo in static/images/
+    imageWidth: 360
+    imageHeight: 360
     imageTitle: "Profile picture"
     buttons:
       - name: Blog
@@ -98,8 +94,8 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/yourusername"
-    - name: x
-      url: "https://x.com/yourusername"
+    - name: facebook
+      url: "https://www.facebook.com/obach.290891/"
     - name: rss
       url: "https://yourusername.github.io/myblog/index.xml"
 
@@ -167,4 +163,8 @@ menu:
     - identifier: tags
       name: Tags
       url: /tags/
+      weight: 60
+    - identifier: About
+      name: About
+      url: /About/
       weight: 60
