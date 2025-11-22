@@ -65,7 +65,8 @@ params:
     disableFingerprinting: true     # handy while developing
     customCSS:
       - "css/extended/custom.css"    # your custom CSS file in assets/css/extended/
-    
+    customJS: 
+      - "js/custom.js"
 
   label:
     text: "Home"
@@ -75,9 +76,9 @@ params:
   # ←←← YOUR PROFILE MODE (kept exactly as you like it) ←←←
   profileMode:
     enabled: true
-    title: "Đỗ Bách"
+    title: "Hi, my name is Đỗ Bách"
     extendProfile: true
-    subtitle: "Roman Christian & Ethical Hacker. Hacking through systems and inner self."
+    subtitle: '{{< rawhtml >}}A Roman Christian and Ethical Hacker. I enjoys <span class="typed-text"></span><span class="cursor">&nbsp;</span>{{< /rawhtml >}}'
     imageUrl: "/images/profile_final.jpg"     # put your photo in static/images/
     imageWidth: 360
     imageHeight: 360
@@ -93,11 +94,11 @@ params:
   # Social icons (add/remove as you like)
   socialIcons:
     - name: github
-      url: "https://github.com/yourusername"
+      url: "https://github.com/Do-Bach-2006"
     - name: facebook
       url: "https://www.facebook.com/obach.290891/"
-    - name: rss
-      url: "https://yourusername.github.io/myblog/index.xml"
+    - name: email
+      url: "mailto:dobachk4@gmail.com"
 
   analytics:
     google:
@@ -148,7 +149,9 @@ markup:
     codeFences: true
     guessSyntax: true
     # noClasses: false
-
+  goldmark:
+    renderer:
+      unsafe: true
 # Menu
 menu:
   main:
