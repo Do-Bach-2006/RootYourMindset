@@ -1,4 +1,5 @@
 baseURL: "https://do-bach-2006.github.io/RootYourMindset/"   # ← change when you have a real domain
+theme: PaperMod
 languageCode: en-us
 title: "RootYourMindset"                                  # ← your real name / brand
 copyright: "© 2025 Đỗ Bách - All rights reserved"
@@ -22,10 +23,10 @@ languages:
   en:
     languageName: English
     weight: 1
-    title: "Your Name"
+    title: "Root Your Mindset"
     contentDir: content/en
     params:
-      description: "Passive programmer · Minimalist tools · Everforest vibes"
+      description: "Passive hacker · Minimalist mindset · Everforest vibes"
 
   vi:                                   
     languageName: Vietnamese      
