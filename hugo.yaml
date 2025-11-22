@@ -69,7 +69,7 @@ params:
 
   label:
     text: "Home"
-    icon: /apple-touch-icon.png
+    icon: apple-touch-icon.png
     iconHeight: 35
 
   # ←←← YOUR PROFILE MODE (kept exactly as you like it) ←←←
@@ -84,11 +84,11 @@ params:
     imageTitle: "Profile picture"
     buttons:
       - name: Blog
-        url: /posts/
+        url: posts/
       - name: Search
-        url: /search/
+        url: search/
       - name: Tag
-        url: /tags/
+        url: tags/
  
   # Social icons (add/remove as you like)
   socialIcons:
@@ -113,7 +113,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/Do-Bach-2006/RootYourMindset/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -156,17 +156,17 @@ menu:
   main:
     - identifier: Archives
       name: Archives
-      url: /archives/
+      url: archives/     
       weight: 20
     - identifier: search
       name: Search
-      url: /search/
+      url: search/      
       weight: 30
     - identifier: tags
       name: Tags
-      url: /tags/
+      url: tags/         
       weight: 60
     - identifier: About
       name: About
-      url: /about/
+      url: about/       
       weight: 60
