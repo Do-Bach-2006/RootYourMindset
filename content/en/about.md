@@ -6,7 +6,7 @@ title: 'About Me'
 
 
  
-![Description of image](/images/smile.jpg)
+![Description of image](images/smile.jpg)
 
 Hi, my name is Đỗ Bách ("winning for a hundred times" in Vietnamese). I am a Junior Ethical Hacker who are currently on the learning journey. I am also a Roman Christian who dedicate his life and purpose to God.
 
@@ -14,6 +14,12 @@ This blog is where I share my experience both on the labotary and the spiritual 
 
 # My Vision
 
-# Other Projects
+Been through Sacromma stage 3 at age 16, suffered and then healed. I readlize that the meaning of this life is what you put into it. So
 
-# Learning Journey 
+# My skills
+
+# Other projects 
+
+# Working History 
+
+# Contactcs me 

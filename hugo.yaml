@@ -78,7 +78,7 @@ params:
     title: "Hi, my name is Đỗ Bách"
     extendProfile: true
     subtitle: '{{< rawhtml >}}A Roman Christian and Ethical Hacker. I enjoys <span class="typed-text"></span><span class="cursor">&nbsp;</span>{{< /rawhtml >}}'
-    imageUrl: "/images/profile_final.jpg"     # put your photo in static/images/
+    imageUrl: "images/profile_final.jpg"     # put your photo in static/images/
     imageWidth: 360
     imageHeight: 360
     imageTitle: "Profile picture"
@@ -168,5 +168,5 @@ menu:
       weight: 60
     - identifier: About
       name: About
-      url: /About/
+      url: /about/
       weight: 60
