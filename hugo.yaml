@@ -1,9 +1,7 @@
 baseURL: "https://do-bach-2006.github.io/RootYourMindset/"   # ← change when you have a real domain
-theme: PaperMod
 languageCode: en-us
 title: "RootYourMindset"                                  # ← your real name / brand
 copyright: "© 2025 Đỗ Bách - All rights reserved"
-
 theme: PaperMod
 enableRobotsTXT: true
 buildDrafts: false
