@@ -29,10 +29,10 @@ languages:
   vi:                                   
     languageName: Vietnamese      
     weight: 2
-    title: "Người Việt"
+    title: "Hack tâm trí của bạn"
     contentDir: content/vi
     params:
-      description: "Tôi là người Viêt, whoohooo"
+      description: "Phát triển bản thân - bài học - tin tặc"
 
 params:
   env: production
@@ -64,8 +64,9 @@ params:
     disableFingerprinting: true     # handy while developing
     customCSS:
       - "css/extended/custom.css"    # your custom CSS file in assets/css/extended/
+      - "css/extended/basicstyling.css"
     customJS: 
-      - "js/custom.js"
+      - "https://do-bach-2006.github.io/RootYourMindset/js/custom.js"
 
   label:
     text: "Home"

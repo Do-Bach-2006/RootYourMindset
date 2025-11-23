@@ -147,3 +147,10 @@ span.typed-text {
   99% { background-color: transparent; }
   100%  { background-color: #ccc; }
 }
+
+a {
+   
+    box-shadow: none !important;     /* This is usually the culprit in PaperMod */
+    
+    
+}

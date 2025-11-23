@@ -1,0 +1,5 @@
+
+/* disable underline in markdown links*/
+a {
+    box-shadow: none !important;     /* This is usually the culprit in PaperMod */
+}
