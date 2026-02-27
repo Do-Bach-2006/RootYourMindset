@@ -5,25 +5,25 @@
    ----------------------- */
 :root {
   /* base backgrounds */
-  --theme: #f2efdf;            /* page background (Everforest light bg0) */
-  --entry: #efebd4;            /* post card / entry (surface-1) */
-  --tertiary: #e9e5c8;         /* subtle surfaces (surface-2) */
+  --theme: #f2efdf; /* page background (Everforest light bg0) */
+  --entry: #efebd4; /* post card / entry (surface-1) */
+  --tertiary: #e9e5c8; /* subtle surfaces (surface-2) */
 
   /* text */
-  --primary: #475258;          /* main text / headings */
-  --secondary: #7b888f;        /* muted text */
-  --content: #5c6a72;          /* body text color */
+  --primary: #475258; /* main text / headings */
+  --secondary: #7b888f; /* muted text */
+  --content: #5c6a72; /* body text color */
 
   /* code */
-  --code-block-bg: #efebd4;    /* code block container */
-  --code-bg: #efebd4;          /* inline code background */
+  --code-block-bg: #efebd4; /* code block container */
+  --code-bg: #efebd4; /* inline code background */
 
   /* borders, accents */
   --border: #ddd8b9;
-  --accent: #8da101;           /* Everforest green */
-  --accent-weak: rgba(141,161,1,0.12);
+  --accent: #8da101; /* Everforest green */
+  --accent-weak: rgba(141, 161, 1, 0.12);
 
-  --orange: #E69875;
+  --orange: #e69875;
 
   color-scheme: light;
 }
@@ -32,23 +32,23 @@
    DARK THEME
    ----------------------- */
 :root[data-theme="dark"] {
-  --theme: #2b3339;            /* bg0 */
-  --entry: #323c41;            /* surface-1 */
-  --tertiary: #3a464c;         /* surface-2 */
+  --theme: #2b3339; /* bg0 */
+  --entry: #323c41; /* surface-1 */
+  --tertiary: #3a464c; /* surface-2 */
 
-  --primary: #e1e7dd;          /* headings / bright text */
-  --secondary: #9da9a0;        /* muted text */
-  --content: #d3c6aa;          /* body text */
+  --primary: #e1e7dd; /* headings / bright text */
+  --secondary: #9da9a0; /* muted text */
+  --content: #d3c6aa; /* body text */
 
   --code-block-bg: #374247;
   --code-bg: #374247;
 
   --border: #4c555b;
   --accent: #a7c080;
-  --link:  #a7c080;
-  --accent-weak: rgba(167,192,128,0.12);
+  --link: #a7c080;
+  --accent-weak: rgba(167, 192, 128, 0.12);
 
-  --orange: #E69875;
+  --orange: #e69875;
 
   color-scheme: dark;
 }
@@ -58,25 +58,30 @@
    ----------------------- */
 body {
   background: var(--theme) !important;
-  color: var(--content) ;
-  transition: background 220ms ease, color 220ms ease;
+  color: var(--content);
 }
 
 /* entries/cards */
-.main, .post-entry, .card, article {
+.main,
+.post-entry,
+.card,
+article {
   background: var(--theme) !important;
   border: none !important;
+  transition:
+    background 300ms ease-in-out 0s,
+    color 300ms ease-in-out 0s;
 }
 
-
 /* links */
-a, a:visited {
+a,
+a:visited {
   color: var(--accent);
   text-decoration: none;
   font-weight: 600;
-  
 }
-a:hover, a:focus {
+a:hover,
+a:focus {
   color: var(--primary);
   transition: transform 300ms ease-in-out 0s;
 }
@@ -87,11 +92,11 @@ a.button:hover,
 .btn:hover {
   transform: translateY(-2px);
   border-color: var(--accent) !important;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.06), 0 0 18px var(--accent-weak);
+  box-shadow:
+    0 6px 18px rgba(0, 0, 0, 0.06),
+    0 0 18px var(--accent-weak);
   color: var(--primary) !important;
 }
-
-
 
 .language-switcher,
 #language-switcher,
@@ -101,56 +106,58 @@ a.button:hover,
   display: none !important;
 }
 
-#theme-toggle{
+#theme-toggle {
   border: none;
 }
 
-#theme-toggle:hover 
-{
+#theme-toggle:hover {
   border-style: none;
 }
 
-
-div.profile_inner{
+div.profile_inner {
   gap: 2rem !important;
-
 }
-
 
 /* -----------------------
    TYPING STYLE
    ----------------------- */
 
-
-
 span.typed-text {
   font-weight: normal;
   text-align: center;
-  color: var(--accent) ;
+  color: var(--accent);
 }
- span.cursor {
+span.cursor {
   display: inline-block;
-  background-color: #ccc ;
+  background-color: #ccc;
   margin-left: 0.1rem;
   width: 2px;
-  
+
   animation: blink 1s infinite;
 }
 
- span.cursor.typing {
+span.cursor.typing {
   animation: none;
 }
 @keyframes blink {
-  0%  { background-color: #ccc; }
-  49% { background-color: #ccc; }
-  50% { background-color: transparent; }
-  99% { background-color: transparent; }
-  100%  { background-color: #ccc; }
+  0% {
+    background-color: #ccc;
+  }
+  49% {
+    background-color: #ccc;
+  }
+  50% {
+    background-color: transparent;
+  }
+  99% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #ccc;
+  }
 }
 
 a {
-   
-    box-shadow: none !important;     /* This is usually the culprit in PaperMod */
-    
-    
+  box-shadow: none !important; /* This is usually the culprit in PaperMod */
 }
+

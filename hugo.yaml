@@ -1,6 +1,6 @@
-baseURL: "https://do-bach-2006.github.io/RootYourMindset/"   # ← change when you have a real domain
+baseURL: "https://do-bach-2006.github.io/RootYourMindset/" # ← change when you have a real domain
 languageCode: en-us
-title: "RootYourMindset"                                  # ← your real name / brand
+title: "RootYourMindset" # ← your real name / brand
 copyright: "© 2025 Đỗ Bách - All rights reserved"
 theme: PaperMod
 enableRobotsTXT: true
@@ -22,18 +22,43 @@ languages:
     languageName: English
     weight: 1
     title: "Root Your Mindset"
-    contentDir: content/en
     params:
       description: "Passive hacker · Minimalist mindset · Everforest vibes"
+    menu:
+      main:
+        - identifier: search
+          name: Search
+          url: search/
+          weight: 10
+        - identifier: archives
+          name: Archives
+          url: archives/
+          weight: 20
+        - identifier: about
+          name: About
+          url: about/
+          weight: 30
 
-  vi:                                   
-    languageName: Vietnamese      
+  vi:
+    languageName: Vietnamese
     weight: 2
     title: "Hack tâm trí của bạn"
-    contentDir: content/vi
     params:
       description: "Phát triển bản thân - bài học - tin tặc"
-
+    menu:
+      main:
+        - identifier: search
+          name: Tìm kiếm
+          url: search/
+          weight: 10
+        - identifier: archives
+          name: Lưu trữ
+          url: archives/
+          weight: 20
+        - identifier: about
+          name: Giới thiệu
+          url: about/
+          weight: 30
 params:
   env: production
   title: "RootYourMindset"
@@ -41,8 +66,8 @@ params:
   keywords: [Blog, Portfolio, PaperMod]
   author: "Đỗ Bách"
   DateFormat: "2 January 2006"
-  defaultTheme: dark                # Everforest dark by default
-  disableLanguageSwitchingButton: true
+  defaultTheme: dark # Everforest dark by default
+  disableLanguageSwitchingButton: false
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
@@ -54,18 +79,20 @@ params:
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: true                   # change to true + add giscus/disqus later if you want
+  comments: true # change to true + add giscus/disqus later if you want
   hidemeta: false
   hideSummary: false
   showtoc: true
   tocopen: false
+  displayFullLangName: true # Changes the button from "Vi" to "Vietnamese"
+  ShowTranslations: true
 
   assets:
-    disableFingerprinting: true     # handy while developing
+    disableFingerprinting: true # handy while developing
     customCSS:
-      - "css/extended/custom.css"    # your custom CSS file in assets/css/extended/
+      - "css/extended/custom.css" # your custom CSS file in assets/css/extended/
       - "css/extended/basicstyling.css"
-    customJS: 
+    customJS:
       - "https://do-bach-2006.github.io/RootYourMindset/js/custom.js"
 
   label:
@@ -79,7 +106,7 @@ params:
     title: "Hi, my name is Đỗ Bách"
     extendProfile: true
     subtitle: '{{< rawhtml >}}A Roman Christian and Ethical Hacker. I enjoys <span class="typed-text"></span><span class="cursor">&nbsp;</span>{{< /rawhtml >}}'
-    imageUrl: "images/profile_final.jpg"     # put your photo in static/images/
+    imageUrl: "images/profile_final.jpg" # put your photo in static/images/
     imageWidth: 360
     imageHeight: 360
     imageTitle: "Profile picture"
@@ -90,7 +117,7 @@ params:
         url: search/
       - name: Tag
         url: tags/
- 
+
   # Social icons (add/remove as you like)
   socialIcons:
     - name: github
@@ -144,8 +171,9 @@ markup:
     style: everforest-dark
     noClasses: false
     lineNos: true
-    lineNumbersInTable: false
-     # anchorLineNos: true
+    lineNumbersInTable:
+      false
+      # anchorLineNos: true
     codeFences: true
     guessSyntax: true
     # noClasses: false
@@ -157,17 +185,17 @@ menu:
   main:
     - identifier: Archives
       name: Archives
-      url: archives/     
+      url: archives/
       weight: 20
     - identifier: search
       name: Search
-      url: search/      
+      url: search/
       weight: 30
     - identifier: tags
       name: Tags
-      url: tags/         
+      url: tags/
       weight: 60
     - identifier: About
       name: About
-      url: about/       
+      url: about/
       weight: 60
