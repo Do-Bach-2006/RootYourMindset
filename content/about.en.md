@@ -12,35 +12,6 @@ Diagnosted with sacroma stage 3 at age 16. I have been through pain, suffered an
 
 This blog is where I share every interesting that I collected in the journey. From lessons to A-HA momments that I think it will be useful for others.
 
-## Skills
-
-Thanks to the support of my parents and my past, I’ve developed essential skills that shaped who I am today
-
-### Soft
-
-- Stress management
-- Self learn
-- Communicate
-- Time and project management
-
-### Hard
-
-- I can understand and use automation tools like Zappier, Pipedreams
-- I have experience in development. My main use languages is javascript and python.
-- I have a good grasp about computer, operating systems and networking. Especially linux.
-
-## Projects
-
-### 9/2024 - 12/2024 [MyLearningSystemd](https://github.com/Do-Bach-2006/MyLearningSystemd)
-
-An electron app that provide an interface to manage local video lectures. It Identify each courses, keeping learning process and provide a non distraction learning enviroment that enhance productivity when learning.
-
-## Experience
-
-### 10/2025 - Now Researcer at InSecLab
-
-I am currently a junior researcher at [InsecLab](https://inseclab.uit.edu.vn/gioi-thieu/). Currently, we are working on Adversarial Malware development.
-
 ## Contacts
 
 You can contacts with me via [dobachk4@gmail.com](mailto:dobachk4@gmail.com)

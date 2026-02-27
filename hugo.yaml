@@ -79,7 +79,7 @@ params:
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: true # change to true + add giscus/disqus later if you want
+  comments: true
   hidemeta: false
   hideSummary: false
   showtoc: true
@@ -113,8 +113,8 @@ params:
     buttons:
       - name: Blog
         url: posts/
-      - name: Search
-        url: search/
+      - name: Projects
+        url: projects/
       - name: Tag
         url: tags/
 

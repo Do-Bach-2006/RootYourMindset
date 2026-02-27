@@ -98,14 +98,6 @@ a.button:hover,
   color: var(--primary) !important;
 }
 
-.language-switcher,
-#language-switcher,
-.nav-link.language,
-.header-language,
-.lang-switch {
-  display: none !important;
-}
-
 #theme-toggle {
   border: none;
 }
@@ -160,4 +152,3 @@ span.cursor.typing {
 a {
   box-shadow: none !important; /* This is usually the culprit in PaperMod */
 }
-
