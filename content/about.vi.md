@@ -6,41 +6,12 @@ title: "Đôi lời về tớ"
 
 ![Me smiling](/RootYourMindset/images/smile.jpg)
 
-Hi, my name is Đỗ Bách ("winning for a hundred times" in Vietnamese). I am a Junior Ethical Hacker who are currently on the learning journey. I am also a Roman Christian who dedicate his life and purpose to God.
+Chào mọi người, mình là Đỗ Bách (cái tên mang ý nghĩa là "trăm trận trăm thắng"). Mình là một Junior Ethical Hacker đang trên hành trình khám phá thế giới an ninh mạng. Mình cũng là một người Công giáo, luôn muốn dành trọn cuộc đời và mục đích sống của mình để phụng sự Thiên Chúa.
 
-Diagnosted with sacroma stage 3 at age 16. I have been through pain, suffered and healed. Now, at age 19. I continue my adventure with a new mindset and a will power to influence the world throughout my works
+Từng nhận chẩn đoán mắc ung thư xương (sarcoma) giai đoạn 3 vào năm 16 tuổi, mình đã đi qua những ngày tháng đau đớn, khổ cực để rồi được chữa lành. Giờ đây, ở tuổi 19, mình tiếp tục chuyến phiêu lưu này với một tư duy mới và ý chí mạnh mẽ nhằm tạo ra những ảnh hưởng tích cực cho thế giới thông qua các thành quả của mình.
 
-This blog is where I share every interesting that I collected in the journey. From lessons to A-HA momments that I think it will be useful for others.
+Blog này là nơi mình chia sẻ tất cả những điều thú vị tích góp được trong hành trình của mình, từ những bài học quý giá đến những khoảnh khắc "À Há" vỡ lẽ ra nhiều điều mà mình tin rằng sẽ hữu ích cho mọi người.
 
-## Skills
+## Liên hệ
 
-Thanks to the support of my parents and my past, I’ve developed essential skills that shaped who I am today
-
-### Soft
-
-- Stress management
-- Self learn
-- Communicate
-- Time and project management
-
-### Hard
-
-- I can understand and use automation tools like Zappier, Pipedreams
-- I have experience in development. My main use languages is javascript and python.
-- I have a good grasp about computer, operating systems and networking. Especially linux.
-
-## Projects
-
-### 9/2024 - 12/2024 [MyLearningSystemd](https://github.com/Do-Bach-2006/MyLearningSystemd)
-
-An electron app that provide an interface to manage local video lectures. It Identify each courses, keeping learning process and provide a non distraction learning enviroment that enhance productivity when learning.
-
-## Experience
-
-### 10/2025 - Now Researcer at InSecLab
-
-I am currently a junior researcher at [InsecLab](https://inseclab.uit.edu.vn/gioi-thieu/). Currently, we are working on Adversarial Malware development.
-
-## Contacts
-
-You can contacts with me via [dobachk4@gmail.com](mailto:dobachk4@gmail.com)
+Bạn có thể kết nối với mình qua email: [dobachk4@gmail.com](mailto:dobachk4@gmail.com)
