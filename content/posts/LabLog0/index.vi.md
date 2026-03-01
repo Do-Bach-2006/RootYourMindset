@@ -1,10 +1,10 @@
 ---
 title: "Lab log 0: Giới thiệu về malware"
-date: 2026-03-01T10:50:34.670Z
-tags: ["malware","cybersecurity","infosec","wannacry","ransomware","trojan","virus","worm","techhistory","antivirus"]
-keywords: ["malware","cybersecurity","infosec","wannacry","ransomware","trojan","virus","worm","techhistory","antivirus"]
+date: 2026-03-01T12:24:56.954Z
+tags: ["Malware","Cybersecurity","ComputerSecurity","Trojans","Ransomware","Adware","Viruses","Worms","WannaCry","ILOVEYOU","ChernobylVirus","DataProtection","Antivirus"]
+keywords: ["Malware","Cybersecurity","ComputerSecurity","Trojans","Ransomware","Adware","Viruses","Worms","WannaCry","ILOVEYOU","ChernobylVirus","DataProtection","Antivirus"]
 cover:
-  image: "https://picsum.photos/seed/324808/1200/630"
+  image: "https://picsum.photos/seed/556906/1200/630"
   caption: "Một bức ảnh cho cuộc phiêu lưu mới"
   relative: false
   hiddenInList: false
@@ -45,7 +45,7 @@ Tất nhiên, đây chỉ là các cái đặc trưng của loại malware, như
 ## Một vài thiệt hại mà malware đã gây ra
 
 - Wanna cry
-	![Pasted image 20260228221809](Pasted%20image%2020260228221809.png)
+	![Wanacry](Pasted%20image%2020260228221809.png)
 
 
     Phát hiện vào 12/5/2017 Là một loại ransomware và worm tống tiền bằng crypto
@@ -61,7 +61,7 @@ Tất nhiên, đây chỉ là các cái đặc trưng của loại malware, như
     Về sau ông này cũng bị FBI bắt giữ vì liên quan đến việc phát triển một loại trojan ngân hàng khác. Đúng đời là bể dâu :)) (Kronos) 
     
 - ILOVEYOU
-	![](Pasted%20image%2020260228221707.png)
+	![Content of I love you email](Pasted%20image%2020260228221707.png)
 
     Được phát hiện vào ngày 4/5/2000, là một loại worm bắt nguồn từ Philippines 
     
@@ -74,7 +74,7 @@ Tất nhiên, đây chỉ là các cái đặc trưng của loại malware, như
      
     
 - Chernobyl
-	![](Pasted%20image%2020260228221512.png)
+	![CIH infected bios screen](Pasted%20image%2020260228221512.png)
     
     Được mọi người chú ý vào khoảng tháng 6/1998, đây là một loại virus CIH (Space filler malware) lây nhiễm qua file PE.
     
