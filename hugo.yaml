@@ -30,14 +30,18 @@ languages:
           name: Search
           url: search/
           weight: 10
-        - identifier: archives
-          name: Archives
-          url: archives/
+        - identifier: Posts
+          name: Posts
+          url: posts/
           weight: 20
         - identifier: about
           name: About
           url: about/
           weight: 30
+        - identifier: Projects
+          name: Projects
+          url: projects/
+          weight: 40        
 
   vi:
     languageName: Vietnamese
@@ -51,14 +55,18 @@ languages:
           name: Tìm kiếm
           url: search/
           weight: 10
-        - identifier: archives
-          name: Lưu trữ
-          url: archives/
+        - identifier: post
+          name: Bài viết
+          url: posts/
           weight: 20
         - identifier: about
           name: Giới thiệu
           url: about/
           weight: 30
+        - identifier: Dự án khác
+          name: Dự án khác
+          url: projects/
+          weight: 40
 params:
   env: production
   title: "RootYourMindset"
@@ -111,12 +119,9 @@ params:
     imageHeight: 360
     imageTitle: "Profile picture"
     buttons:
-      - name: Blog
-        url: posts/
-      - name: Projects
-        url: projects/
-      - name: Tag
-        url: tags/
+      
+      - name: Devobass 
+        url: https://www.devobass-will.win/
 
   # Social icons (add/remove as you like)
   socialIcons:
@@ -180,22 +185,3 @@ markup:
   goldmark:
     renderer:
       unsafe: true
-# Menu
-menu:
-  main:
-    - identifier: Archives
-      name: Archives
-      url: archives/
-      weight: 20
-    - identifier: search
-      name: Search
-      url: search/
-      weight: 30
-    - identifier: tags
-      name: Tags
-      url: tags/
-      weight: 60
-    - identifier: About
-      name: About
-      url: about/
-      weight: 60
