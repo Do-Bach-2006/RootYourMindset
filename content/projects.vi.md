@@ -8,6 +8,8 @@ title: "Các dự án"
 
 Một ứng dụng Electron cung cấp giao diện để quản lý các bài giảng video cục bộ. Nó xác định từng khóa học, theo dõi quá trình học tập và cung cấp môi trường học tập không gây xao nhãng, giúp nâng cao năng suất học tập.
 
+<iframe src="https://drive.google.com/file/d/1x1GJMeZu2apWm1NcoZhLDZquJq6PmxMy/preview" width="100%" height="480" allow="autoplay" style="border:none;"></iframe>
+
 
 
 ## 4/2026 - 5/2026: [FinanOS](https://github.com/Do-Bach-2006/Finanos)

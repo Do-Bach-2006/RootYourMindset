@@ -29,6 +29,8 @@ The university environment offers freedom, yes! And it is precisely within this 
 And of course, it's perfectly normal to receive a lower grade than you expected.
 
 [](Pasted%20image%2020260915221501.png)
+
+
 (The correct base is 6.7; it's called technology. Please ignore my doomed GPA.)
 
 Yeah, well, if things are bad, get up and deal with them!
@@ -36,7 +38,10 @@ Yeah, well, if things are bad, get up and deal with them!
 But the next challenge is truly scary: loneliness, that feeling of being lost when you can't find your environment! Yeah. I was lucky at the beginning of the year to make good friends and maintain those relationships. But some people aren't so fortunate. For instance, whenever I meet my old high school friends, they consistently say, "I wish I could go back to high school" :))). When asked, one friend mentioned that college friendships felt "not real" with each other. They hadn't found a good environment, explaining that their group of friends just chatted and texted constantly, without building anything substantial. Others, even two years into their studies, still struggle with the direction they've chosen... That's not to mention having a partner :))) which can easily lead to FOMO.
 
 
-![[DnD with friends.png]]
+
+
+![](DnD%20with%20friends.png)
+
 
 
 Well, pressure, scores, and connections. These aren't problems unique to anyone. I've been in that situation myself, and sometimes, I still find myself there. But hey, I'm looking to the future. Remember, each person's starting point, circumstances, and abilities are different. You can't compare your 1st day to another person's 1000th day! What weighs on us so much is not what we lack, but what we believe we *must* have. Yeah, pause, acknowledge it, and then move on.
@@ -44,13 +49,13 @@ Well, pressure, scores, and connections. These aren't problems unique to anyone.
 Know what? You don't have to go through this alone! If you find it too hard one day, remember, there's always a counseling room in Building A. There are always people there who will listen and help you. Don't be afraid to walk in and say you're not okay.
 
 
-![[GYM.png]]
+![](GYM.png)
 
 Yeah, relax, exercise, stay active, join clubs, and socialize with people. Connect with good people, and you'll see, they are no different from us—struggling and stuck just like that. Good or talented people, after all, are just ordinary people like you and me. What makes them different is not their starting point, but a passion strong enough to make them willing to sacrifice and persist in its pursuit. Then, over the years, silently accumulated efforts will turn into sweet fruits. When I look back at my second year, the best moments I remember are the stressful, tired nights. Because it was those nights that made me stronger, more mature, and instilled a sense of pride in myself for those student years!
 
 
-![[My friends.png]]
 
+![](My%20friends.png)
 
 And, the sailors on board kept singing, even in the storm:
 
